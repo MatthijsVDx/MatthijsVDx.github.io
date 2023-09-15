@@ -1,0 +1,37 @@
+.welkom {
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2{
+  text-align: center;
+}
+
+.past {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.ds {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+  }
+
+  .hz {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100px;
+    height: 100px;
+
+  }
+
+  table, th, td {
+    border: 1px solid;
+  }

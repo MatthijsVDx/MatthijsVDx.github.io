@@ -1,0 +1,32 @@
+/* Stylesheet Table */
+.table-quartile{
+    text-align: center;
+}
+
+.table-grade{
+    text-align: center;
+}
+
+.table-ec{
+    text-align: center;
+    width: 40px;
+}
+.table-notg{
+    color: orange;
+}
+.table-grad{
+    color: green;
+}
+
+.progressbar{
+    color:blue;
+}
+
+
+.color-progress{
+    color: yellow;
+}
+
+.border{
+    color: black;
+}

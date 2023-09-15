@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="stylesheet">
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #015293;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <ul>
+          <li><a href="http://localhost/MatthijsVDx.github.io/index.html">Home</a></li>
+          <li><a href="http://localhost/MatthijsVDx.github.io/profile.html">Profile</a></li>
+          <li><a class="active" href="http://localhost/MatthijsVDx.github.io/dashboard.html">Dashboard</a></li>
+          <li><a href="http://localhost/MatthijsVDx.github.io/faq.html">FAQ</a></li>
+          <li><a href="http://localhost/MatthijsVDx.github.io/blog.html">Blog</a></li>
+        </ul>
+        </body>
+<!--Start-->
+<link rel="Stylesheet Table" href="stylesheet table.css">
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+  <body>
+<br>
+    <table> 
+      <tr>
+        <th class="table-quartile">Quartile</th>
+        <th>Course</th>
+        <th class="table-ec">EC</th>
+        <th>Exam</th>
+        <th class="table-grade">Grade</th>
+      </tr>
+      <tr>
+        <td class="table-quartile">1</td>
+        <td class="table-grad">Program-& Career <br> Computer Science Basics <br> Programming Basics</td>
+        <td class="table-ec">2,5 <br> 5 <br> 5</td>
+        <td>Assessment website <br> Written knowledge test <br> Case study exam</td>
+        <td class="table-grade">10 / not graded <br> 10 <br> 10</td>
+      </tr>
+      <tr>
+        <td class="table-quartile">2</td>
+        <td class="table-notg">Object Oriented Programming <br> IT Personality</td>
+        <td class="table-ec">10 <br> 0</td>
+        <td>Presentation and Case study exam <br> Portfolio </td>
+        <td class="table-grade">10 <br> - </td>
+      </tr>
+      <tr>
+        <td class="table-quartile">3</td>
+        <td class="table-notg">Framework Development 1 <br> Framework Project 1 <br> IT Personality</td>
+        <td class="table-ec">5 <br> 7,5 <br> 0</td>
+        <td>Case study exam<br>Criterium based interview, Assignment and Case study exam <br> Portfolio   </td>
+        <td class="table-grade">10 <br> 10 <br> - </td>
+      </tr>
+      <tr>
+        <td class="table-quartile">4</td>
+        <td class="table-notg">: Framework project 2 <br>  Personal Professional Development: Exploration  <br> IT Personality <br> Personality </td>
+        <td class="table-ec">10 <br> 12,5 <br> 0 <br> 2,5</td>
+        <td>Final delivery, Report of acceptance tests and optional assessments and IT Development portfolio<br>
+            Test (Dutch), Test (English) and Criterium focused interview <br> Portfolio <br> Portfolio</td>
+        <td class="table-grade">10 <br> 10 <br> - <br> 10</td>
+      </tr>
+   </table>
+   <div>
+    <div class="progressbar"></div>
+     <h2>Progress Bar</h2>
+    <div class="border">
+      <div class="color-progress" style="height:24px;width:20%"></div>
+    </div>
+  </div>
+  </body>
+</html>
